@@ -1,0 +1,39 @@
+[models] silero-vad
+    GET https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx
+    -> silero_vad.onnx (0.6 MB)
+[models] whisper-tiny-int8
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-tiny/resolve/main/tiny-encoder.int8.onnx
+    -> tiny-encoder.int8.onnx (12.9 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-tiny/resolve/main/tiny-decoder.int8.onnx
+    -> tiny-decoder.int8.onnx (89.9 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-tiny/resolve/main/tiny-tokens.txt
+    -> tiny-tokens.txt (0.8 MB)
+[models] whisper-base-int8
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base/resolve/main/base-encoder.int8.onnx
+    -> base-encoder.int8.onnx (29.1 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base/resolve/main/base-decoder.int8.onnx
+    -> base-decoder.int8.onnx (130.7 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base/resolve/main/base-tokens.txt
+    -> base-tokens.txt (0.8 MB)
+[models] whisper-base-fp32
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base/resolve/main/base-encoder.onnx
+    -> base-encoder.onnx (95.1 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base/resolve/main/base-decoder.onnx
+    -> base-decoder.onnx (196.5 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base/resolve/main/base-tokens.txt
+    -> base-tokens.txt (0.8 MB)
+[models] whisper-base-en-int8
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base.en/resolve/main/base.en-encoder.int8.onnx
+    -> base.en-encoder.int8.onnx (29.1 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base.en/resolve/main/base.en-decoder.int8.onnx
+    -> base.en-decoder.int8.onnx (130.7 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-base.en/resolve/main/base.en-tokens.txt
+    -> base.en-tokens.txt (0.8 MB)
+[models] whisper-small-int8
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-small/resolve/main/small-encoder.int8.onnx
+    -> small-encoder.int8.onnx (112.4 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-small/resolve/main/small-decoder.int8.onnx
+    -> small-decoder.int8.onnx (262.2 MB)
+    GET https://huggingface.co/csukuangfj/sherpa-onnx-whisper-small/resolve/main/small-tokens.txt
+    -> small-tokens.txt (0.8 MB)
+[models] done

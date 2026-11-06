@@ -1,0 +1,209 @@
+{
+  "run_id": "20261106T103019Z",
+  "created_utc": "2026-11-06T10:30:44.002622+00:00",
+  "engine": {
+    "name": "sherpa-onnx",
+    "version": "2.0.1"
+  },
+  "manifest": "librispeech_test-clean.jsonl",
+  "manifest_path": "manifests/librispeech_test-clean.jsonl",
+  "utterance_count": 6,
+  "language": "en",
+  "host": {
+    "platform": "Linux-6.1.189+-x86_64-with-glibc2.41",
+    "machine": "x86_64",
+    "cpu_count": 2,
+    "python": "3.13.16",
+    "numpy": "2.3.5"
+  },
+  "runs": [
+    {
+      "model": "whisper-tiny-int8",
+      "language": "en",
+      "mode": "final",
+      "utterances": 6,
+      "corpus": {
+        "utterances": 6,
+        "ref_words": 94,
+        "word_errors": 15,
+        "substitutions": 11,
+        "deletions": 0,
+        "insertions": 4,
+        "wer": 0.15957,
+        "wer_percent": 15.957,
+        "wer_ci95_percent": [
+          8.333,
+          30.508
+        ],
+        "cer": 0.07865,
+        "cer_percent": 7.865,
+        "audio_seconds": 37.87,
+        "processing_seconds": 10.875,
+        "rtf": 0.2872,
+        "x_realtime": 3.48
+      },
+      "model_load_seconds": 1.25,
+      "peak_rss_mb": 326.9,
+      "num_threads": 2,
+      "speaker_wer_percent": {
+        "1089": 15.957
+      },
+      "speaker_wer_spread": 0.0,
+      "integrity": {
+        "empty_hypotheses": 0,
+        "mean_duplicate_5gram_ratio": 0.0,
+        "max_repeated_token_run": 1
+      },
+      "hypotheses": [
+        {
+          "id": "1089-134686-0000",
+          "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+          "hypothesis": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick, peppered flower-fat and sauce.",
+          "wer": 0.1071,
+          "cer": 0.0382,
+          "audio_seconds": 10.44,
+          "decode_seconds": 2.31
+        },
+        {
+          "id": "1089-134686-0001",
+          "reference": "STUFF IT INTO YOU HIS BELLY COUNSELLED HIM",
+          "hypothesis": "and suffered into you, his belly, countered him.",
+          "wer": 0.375,
+          "cer": 0.3143,
+          "audio_seconds": 3.27,
+          "decode_seconds": 0.936
+        },
+        {
+          "id": "1089-134686-0002",
+          "reference": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+          "hypothesis": "After early nightfall, the yellow lamps would light up here in there the squalid quarter of the brothels.",
+          "wer": 0.0556,
+          "cer": 0.023,
+          "audio_seconds": 6.62,
+          "decode_seconds": 1.54
+        },
+        {
+          "id": "1089-134686-0003",
+          "reference": "HELLO BERTIE ANY GOOD IN YOUR MIND",
+          "hypothesis": "a bad day and a good in your mind",
+          "wer": 0.7143,
+          "cer": 0.4286,
+          "audio_seconds": 2.68,
+          "decode_seconds": 0.617
+        },
+        {
+          "id": "1089-134686-0004",
+          "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+          "hypothesis": "Number 10, Fresh Nelly is waiting on you. Good night husband.",
+          "wer": 0.0909,
+          "cer": 0.0612,
+          "audio_seconds": 5.22,
+          "decode_seconds": 1.376
+        },
+        {
+          "id": "1089-134686-0005",
+          "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS",
+          "hypothesis": "The music came nearer and he recalled the words, the words of Shelley's fragment upon the moon wandering companionless, pale for wearing us.",
+          "wer": 0.0909,
+          "cer": 0.0174,
+          "audio_seconds": 9.63,
+          "decode_seconds": 1.796
+        }
+      ]
+    },
+    {
+      "model": "whisper-tiny-int8",
+      "language": "en",
+      "mode": "stream",
+      "utterances": 6,
+      "corpus": {
+        "utterances": 6,
+        "ref_words": 94,
+        "word_errors": 16,
+        "substitutions": 9,
+        "deletions": 0,
+        "insertions": 7,
+        "wer": 0.17021,
+        "wer_percent": 17.021,
+        "wer_ci95_percent": [
+          8.571,
+          22.68
+        ],
+        "cer": 0.11011,
+        "cer_percent": 11.011,
+        "audio_seconds": 37.87,
+        "processing_seconds": 10.37,
+        "rtf": 0.2739,
+        "x_realtime": 3.65
+      },
+      "model_load_seconds": 1.217,
+      "peak_rss_mb": 329.5,
+      "num_threads": 2,
+      "speaker_wer_percent": {
+        "1089": 17.021
+      },
+      "speaker_wer_spread": 0.0,
+      "integrity": {
+        "empty_hypotheses": 0,
+        "mean_duplicate_5gram_ratio": 0.0,
+        "max_repeated_token_run": 1
+      },
+      "hypotheses": [
+        {
+          "id": "1089-134686-0000",
+          "reference": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+          "hypothesis": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes, and fat mutton pieces to be ladled out in thick. it'll out and thick, peppered flower fatten sauce.",
+          "wer": 0.2143,
+          "cer": 0.1527,
+          "audio_seconds": 10.44,
+          "decode_seconds": 2.607
+        },
+        {
+          "id": "1089-134686-0001",
+          "reference": "STUFF IT INTO YOU HIS BELLY COUNSELLED HIM",
+          "hypothesis": "\"Stuff it into you, his belly, countlled him.\"",
+          "wer": 0.125,
+          "cer": 0.0571,
+          "audio_seconds": 3.27,
+          "decode_seconds": 0.995
+        },
+        {
+          "id": "1089-134686-0002",
+          "reference": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+          "hypothesis": "After early nightfall, the yellow lamps would light up here and there the squalid quarter of the brothels.",
+          "wer": 0.0,
+          "cer": 0.0,
+          "audio_seconds": 6.62,
+          "decode_seconds": 1.296
+        },
+        {
+          "id": "1089-134686-0003",
+          "reference": "HELLO BERTIE ANY GOOD IN YOUR MIND",
+          "hypothesis": "I'll bury any good in your mind.",
+          "wer": 0.2857,
+          "cer": 0.25,
+          "audio_seconds": 2.68,
+          "decode_seconds": 0.504
+        },
+        {
+          "id": "1089-134686-0004",
+          "reference": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+          "hypothesis": "Number 10 Fresh Nellie is waiting on you. Good night husband.",
+          "wer": 0.1818,
+          "cer": 0.102,
+          "audio_seconds": 5.22,
+          "decode_seconds": 0.98
+        },
+        {
+          "id": "1089-134686-0005",
+          "reference": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS",
+          "hypothesis": "The music came nearer and he recalled the words. The words of Shelley's fragment upon the moon wandering companionless. and you'll pay for wearing this.",
+          "wer": 0.2273,
+          "cer": 0.1304,
+          "audio_seconds": 9.63,
+          "decode_seconds": 2.195
+        }
+      ]
+    }
+  ]
+}

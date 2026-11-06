@@ -1,0 +1,4 @@
++ curl -sSL -o librispeech-test-clean.tar.gz https://www.openslr.org/resources/12/test-clean.tar.gz
++ tar xzf librispeech-test-clean.tar.gz
++ du -sh LibriSpeech
+358M	LibriSpeech
